@@ -1,0 +1,46 @@
+.Button {
+  /* background-color: transparent; */
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 10px;
+  /* margin: 10px 10px; */
+  text-align: center;
+  /* padding-left: 20px; */
+  /* display: block; */
+  /* justify-content: center; */
+  font-weight: bold;
+  border-radius: 20px;
+  transition: all 500ms ease;
+}
+
+/* .Button:first-of-type {
+  margin-left: 0;
+  padding-left: 0;
+} */
+
+.Button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+.Button:disabled:hover {
+    color: rgb(255, 255, 255);
+    cursor: not-allowed;
+    background-color: #acacac;
+  }
+
+.Success {
+  
+  color: #5c9210;
+}
+
+.Success:hover {
+  color: #ffffff;
+  background-color: #5c9210;
+}
+
+.Danger {
+  color: #944317;
+}

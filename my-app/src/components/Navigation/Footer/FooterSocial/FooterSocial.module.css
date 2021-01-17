@@ -1,0 +1,49 @@
+
+.FooterSocial {
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    /* background-color: rgba(184, 84, 84, 0.329); */
+    padding: 10px 10px;
+    justify-content: center;
+}
+
+.FooterSocial a {
+    color: #0f1d97;
+    text-decoration: none;
+    /* width:10%; */
+    /* padding: 0 10px; */
+    margin: 0 10px;
+    box-sizing: border-box;
+    /* display: block; */
+    /* text-align: center; */
+    /* padding: 0 10px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+.FooterSocial img {
+    color: #0f1d97;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    display: block;
+    /* text-align: center; */
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.5s ease;
+}
+
+.FooterSocial img:hover {
+    opacity: 0.5;
+    /* transform: scale(1.05); */
+}
+
+.FooterSocial a:hover {
+    /* transform: scale(1.25); */
+    /* color: #d4f1fb; */
+    /* background-color: rgb(190, 118, 118); */
+}

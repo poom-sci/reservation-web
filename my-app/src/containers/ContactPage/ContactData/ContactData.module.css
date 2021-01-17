@@ -1,0 +1,19 @@
+.ContactData {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px rgb(100, 100, 100);
+    /* background-color: rgb(194, 194, 194); */
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    /* padding:20px; */
+    /* background-color: #cfcfcf; */
+}
+
+@media (min-width: 500px) {
+    .ContactData {
+        max-width: 600px;
+    }
+}

@@ -1,0 +1,47 @@
+.Input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-content: center;
+  resize: none;
+}
+
+.Input input {
+  /* resize: none; */
+  /* background-color: rgb(94, 71, 71); */
+  overflow-wrap: break-word;
+  white-space: pre-line;
+}
+
+.Input textarea {
+  resize: none;
+  height: 200px;
+}
+.Label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.InputElement {
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: white;
+  font: inherit;
+  padding: 6px 10px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  /* animation: all 500ms linear 0 infinite alternate; */
+  border-radius: 20px;
+}
+
+.InputElement:focus {
+  outline: none;
+  background-color: #ccc;
+}
+
+.Invalid {
+  border: 1px solid red;
+  background-color: #ffc4be;
+}

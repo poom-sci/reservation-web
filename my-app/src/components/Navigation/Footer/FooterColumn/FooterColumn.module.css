@@ -1,0 +1,17 @@
+.FooterColumn {
+  /* display: none; */
+  width: 33%;
+}
+
+@media (min-width: 500px) {
+  .FooterColumn {
+    /* display: table-column; */
+    /* width: 20% ; */
+    /* padding: 10px 0px; */
+    /* background-color: blue; */
+    display: table-column;
+    width: 25%;
+    padding: 10px 0px;
+    /* display: none; */
+  }
+}
